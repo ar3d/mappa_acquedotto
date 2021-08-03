@@ -21,11 +21,6 @@ model-viewer {
       pointer-events: none;
     }
 
- model-viewer:not(.show-hotspots) .Hotspotpendenze {
-      opacity: 0;
-      pointer-events: none;
-    }
-
 .Hotspot {
   background: rgb(89, 2, 2);
   border-radius: 12px;
