@@ -82,67 +82,6 @@ model-viewer {
   transition: transform 0.3s, opacity 0.3s;
 }
 
-.Hotspotpendenze {
-  background: rgb(12, 64, 1);
-  border-radius: 12px;
-  border: 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-  box-sizing: border-box;
-  cursor: pointer;
-  height: 8px;
-  padding: 4px;
-  position: relative;
-  transition: opacity 0.3s;
-  width: 8px;
-}
-
-.Hotspotpendenze:not([data-visible]) {
-  background: transparent;
-  border: 2px solid #0c4001;
-  box-shadow: none;
-  height: 12px;
-  pointer-events: none;
-  width: 12px;
-}
-
-.Hotspotpendenze:focus {
-  border: 2px solid rgb(237, 237, 237);
-  height: 12px;
-  outline: none;
-  width: 12px;
-}
-
-.Hotspotpendenze > * {
-  opacity: 1;
-  transform: translateY(-50%);
-}
-
-.HotspotAnnotationpendenze{
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  color: rgba(255, 255, 255, 0.8);
-  display: block;
-  font-family: Futura, Helvetica Neue, sans-serif;
-  font-size: 10px;
-  font-weight: 700;
-  text-align: left;
-  left: calc(100% + 1em);
-  max-width: 100px;
-  overflow-wrap: break-word;
-  padding: 0.5em 1em;
-  position: absolute;
-  top: -300%;
-  width: max-content;
-}
-
-.Hotspotpendenze:not([data-visible]) > * {
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(calc(-50% + 2px));
-  transition: transform 0.3s, opacity 0.3s;
-}
-
 .progress-bar {
   display: block;
   width: 33%;
