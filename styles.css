@@ -16,7 +16,7 @@ model-viewer {
   background: linear-gradient(to top right, rgb(218, 221, 227), rgb(119, 124, 133));
 }
 
- model-viewer:not(.show-hotspots) .Hotspot {
+ model-viewer:not(.show-hotspots) .Hotspot .Hotspotpendenze {
       opacity: 0;
       pointer-events: none;
     }
