@@ -64,6 +64,10 @@
       <mwc-switch id="toggleHotspots"><span>Mostra gli hotspot</span></mwc-switch>
     </div>
 <!--     <paper-toggle-button id="toggleHotspots">Show annotations</paper-toggle-button> --> 
+      <div class="mwc-switch-wrapper-1">
+      <mwc-switch id="toggleHotspotspendenze"><span>Mostra gli hotspot</span></mwc-switch>
+    </div>
+<!--     <paper-toggle-button id="toggleHotspotspendenze">Show annotations</paper-toggle-button> --> 
     </model-viewer> 
     <script src="script.js"></script>
     <script type="module">
@@ -71,7 +75,10 @@
     toggleHotspots.addEventListener('change', () => {
       modelViewer.classList.toggle('show-hotspots', toggleHotspots.checked);
     });
-    
+    toggleHotspotspendenze.addEventListener('change', () => {
+      modelViewer.classList.toggle('show-hotspotspendenze', toggleHotspotspendenze.checked);
+    });
+
   </script>
     <!-- Loads <model-viewer> for browsers: -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
